@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8ff; /* Un color lila muy claro como fondo general */
+    color: #333; /* Color de texto general */
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Sección superior: Mobile Development */
+  .top-section {
+    padding: 20px 0;
+  }
+  
+  .top-section h1 {
+    color: #008080; /* Teal color for the heading */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Sección Sleepiest */
+  .sleepiest-section {
+    background-color: #f0f0ff; /* Un lila más claro para la sección Sleepiest */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sleepiest-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .sleepiest-section p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .sleepiest-section .tags {
+    font-size: 0.8em;
+    color: #777;
+  }
+  
+  .sleepiest-section img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  /* Sección uLesson */
+  .ulesson-section {
+    background-color: #f0f0ff; /* Un lila más claro para la sección uLesson */
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .ulesson-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .ulesson-section p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .ulesson-section .tags {
+    font-size: 0.8em;
+    color: #777;
+  }
+  
+  .ulesson-section img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  /* Sección Genesis Vision */
+  .genesis-section {
+    background-color: #f0f0ff; /* Un lila más claro para la sección Genesis Vision */
+    padding: 20px;
+  }
+  
+  .genesis-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
+  .genesis-section p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .genesis-section .tags {
+    font-size: 0.8em;
+    color: #777;
+  }
+  
+  .genesis-section img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px; /* Bordes redondeados */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-column {
+    flex: 1;
+  }
+  
+  /* Media Queries para hacerlo responsive */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    .footer-columns {
+      flex-direction: column;
+    }
+  
+    .footer-column {
+      margin-bottom: 20px;
+    }
+  }
+  
