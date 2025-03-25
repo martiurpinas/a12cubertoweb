@@ -24,7 +24,6 @@ body{
     margin-bottom: 10px;
   }
   
-  /* Sección Sleepiest */
   .sleepiest-section {
     background-color: #f0f0ff;
     padding: 20px;
@@ -52,7 +51,6 @@ body{
     border-radius: 8px; 
   }
   
-  /* Sección uLesson */
   .ulesson-section {
     background-color: #f0f0ff; 
     padding: 20px;
@@ -80,7 +78,6 @@ body{
     border-radius: 8px; 
   }
   
-  /* Sección Genesis Vision */
   .genesis-section {
     background-color: #f0f0ff; 
     padding: 20px;
